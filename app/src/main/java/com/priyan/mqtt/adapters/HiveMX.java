@@ -1,6 +1,8 @@
 package com.priyan.mqtt.adapters;
 
 import android.app.Activity;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 
 import com.priyan.mqtt.adapters.callbacks.ConnectionListenerCallback;
@@ -39,6 +41,7 @@ public class HiveMX implements MQTTInterface{
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void subscribe(Activity activity, SubscriptionCallback callback, String topic) {
         try {

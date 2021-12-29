@@ -41,7 +41,6 @@ public class HiveMX implements MQTTInterface{
 
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void subscribe(Activity activity, SubscriptionCallback callback, String topic) {
         try {

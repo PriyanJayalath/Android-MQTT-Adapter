@@ -1,4 +1,4 @@
-package com.googleplex.mqtt;
+package com.priyan.mqtt;
 
 import org.junit.Test;
 

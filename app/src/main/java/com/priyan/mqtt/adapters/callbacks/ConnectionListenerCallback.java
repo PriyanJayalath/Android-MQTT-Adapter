@@ -1,4 +1,4 @@
-package com.googleplex.mqtt.adapters.callbacks;
+package com.priyan.mqtt.adapters.callbacks;
 
 public interface ConnectionListenerCallback {
     void onConnectionSuccess(String brokerConnected);

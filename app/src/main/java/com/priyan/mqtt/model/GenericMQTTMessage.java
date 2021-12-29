@@ -1,4 +1,4 @@
-package com.googleplex.mqtt.model;
+package com.priyan.mqtt.model;
 
 import com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5Publish;
 

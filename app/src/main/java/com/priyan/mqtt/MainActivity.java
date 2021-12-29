@@ -1,6 +1,5 @@
-package com.googleplex.mqtt;
+package com.priyan.mqtt;
 
-import android.annotation.SuppressLint;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,16 +9,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.googleplex.mqtt.adapters.HiveMX;
-import com.googleplex.mqtt.adapters.MQTTAdapter;
-import com.googleplex.mqtt.adapters.MQTTAdapterImpl;
-import com.googleplex.mqtt.adapters.MQTTInterface;
-import com.googleplex.mqtt.adapters.Paho;
-import com.googleplex.mqtt.adapters.callbacks.ConnectionListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.DisconnectListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.PublishCallback;
-import com.googleplex.mqtt.adapters.callbacks.SubscriptionCallback;
-import com.googleplex.mqtt.model.GenericMQTTMessage;
+import com.priyan.mqtt.adapters.MQTTAdapter;
+import com.priyan.mqtt.adapters.MQTTAdapterImpl;
+import com.priyan.mqtt.adapters.MQTTInterface;
+import com.priyan.mqtt.adapters.Paho;
+import com.priyan.mqtt.adapters.callbacks.ConnectionListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.DisconnectListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.PublishCallback;
+import com.priyan.mqtt.adapters.callbacks.SubscriptionCallback;
+import com.priyan.mqtt.model.GenericMQTTMessage;
 
 public class MainActivity extends AppCompatActivity {
 

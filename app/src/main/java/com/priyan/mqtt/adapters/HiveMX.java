@@ -1,19 +1,17 @@
-package com.googleplex.mqtt.adapters;
+package com.priyan.mqtt.adapters;
 
 import android.app.Activity;
 import android.util.Log;
 
-import com.googleplex.mqtt.adapters.callbacks.ConnectionListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.DisconnectListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.PublishCallback;
-import com.googleplex.mqtt.adapters.callbacks.SubscriptionCallback;
-import com.googleplex.mqtt.model.GenericMQTTMessage;
-import com.hivemq.client.mqtt.MqttClient;
+import com.priyan.mqtt.adapters.callbacks.ConnectionListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.DisconnectListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.PublishCallback;
+import com.priyan.mqtt.adapters.callbacks.SubscriptionCallback;
+import com.priyan.mqtt.model.GenericMQTTMessage;
 import com.hivemq.client.mqtt.datatypes.MqttQos;
 import com.hivemq.client.mqtt.mqtt5.Mqtt5BlockingClient;
 import com.hivemq.client.mqtt.mqtt5.Mqtt5Client;
 import com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5Publish;
-import com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5Subscribe;
 
 
 import java.util.UUID;

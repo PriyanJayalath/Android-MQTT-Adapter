@@ -1,4 +1,4 @@
-package com.googleplex.mqtt;
+package com.priyan.mqtt;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

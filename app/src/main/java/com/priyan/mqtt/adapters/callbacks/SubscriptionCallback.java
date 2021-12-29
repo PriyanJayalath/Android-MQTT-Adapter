@@ -1,6 +1,6 @@
-package com.googleplex.mqtt.adapters.callbacks;
+package com.priyan.mqtt.adapters.callbacks;
 
-import com.googleplex.mqtt.model.GenericMQTTMessage;
+import com.priyan.mqtt.model.GenericMQTTMessage;
 
 public interface SubscriptionCallback {
     void onSubscriptionSuccess();

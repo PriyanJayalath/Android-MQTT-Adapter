@@ -1,14 +1,14 @@
-package com.googleplex.mqtt.adapters;
+package com.priyan.mqtt.adapters;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.widget.Toast;
 
-import com.googleplex.mqtt.adapters.callbacks.ConnectionListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.DisconnectListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.PublishCallback;
-import com.googleplex.mqtt.adapters.callbacks.SubscriptionCallback;
-import com.googleplex.mqtt.model.GenericMQTTMessage;
+import com.priyan.mqtt.adapters.callbacks.ConnectionListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.DisconnectListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.PublishCallback;
+import com.priyan.mqtt.adapters.callbacks.SubscriptionCallback;
+import com.priyan.mqtt.model.GenericMQTTMessage;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
 import org.eclipse.paho.client.mqttv3.IMqttActionListener;

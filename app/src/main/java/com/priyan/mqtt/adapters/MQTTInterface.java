@@ -1,11 +1,11 @@
-package com.googleplex.mqtt.adapters;
+package com.priyan.mqtt.adapters;
 
 import android.app.Activity;
 
-import com.googleplex.mqtt.adapters.callbacks.ConnectionListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.DisconnectListenerCallback;
-import com.googleplex.mqtt.adapters.callbacks.PublishCallback;
-import com.googleplex.mqtt.adapters.callbacks.SubscriptionCallback;
+import com.priyan.mqtt.adapters.callbacks.ConnectionListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.DisconnectListenerCallback;
+import com.priyan.mqtt.adapters.callbacks.PublishCallback;
+import com.priyan.mqtt.adapters.callbacks.SubscriptionCallback;
 
 public interface MQTTInterface {
 
